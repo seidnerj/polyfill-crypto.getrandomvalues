@@ -12,4 +12,6 @@ If you are out of luck you can use this in a pinch.
 
 ### usage
 
+```js
 window.crypto = { getRandomValues: require('polyfill-crypto.getrandomvalues') }
+```
